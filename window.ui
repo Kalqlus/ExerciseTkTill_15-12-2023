@@ -137,7 +137,7 @@
                     <child>
                       <object class="ttk.Checkbutton" id="checkbutton4">
                         <property name="text" translatable="yes">English</property>
-                        <property name="variable">string:if_en</property>
+                        <property name="variable">boolean:if_en</property>
                         <layout manager="pack">
                           <property name="side">left</property>
                         </layout>
@@ -146,7 +146,7 @@
                     <child>
                       <object class="ttk.Checkbutton" id="checkbutton5">
                         <property name="text" translatable="yes">German</property>
-                        <property name="variable">string:if_ger</property>
+                        <property name="variable">boolean:if_ger</property>
                         <layout manager="pack">
                           <property name="side">left</property>
                         </layout>
@@ -223,7 +223,7 @@
                   <property name="side">top</property>
                 </layout>
                 <child>
-                  <object class="ttk.Entry" id="entry15">
+                  <object class="ttk.Entry" id="FirstName" named="True">
                     <layout manager="pack">
                       <property name="side">right</property>
                     </layout>
@@ -247,7 +247,7 @@
                   <property name="side">top</property>
                 </layout>
                 <child>
-                  <object class="ttk.Entry" id="entry16">
+                  <object class="ttk.Entry" id="LastName" named="True">
                     <layout manager="pack">
                       <property name="side">right</property>
                     </layout>
@@ -271,7 +271,7 @@
                   <property name="side">top</property>
                 </layout>
                 <child>
-                  <object class="ttk.Entry" id="entry18">
+                  <object class="ttk.Entry" id="Phone" named="True">
                     <layout manager="pack">
                       <property name="side">right</property>
                     </layout>
@@ -288,7 +288,7 @@
               </object>
             </child>
             <child>
-              <object class="ttk.Checkbutton" id="checkbutton3">
+              <object class="ttk.Checkbutton" id="Friend" named="True">
                 <property name="text" translatable="yes">Friend</property>
                 <property name="variable">boolean:if_friend</property>
                 <layout manager="pack">
@@ -304,7 +304,7 @@
                   <property name="side">top</property>
                 </layout>
                 <child>
-                  <object class="ttk.Entry" id="entry19">
+                  <object class="ttk.Entry" id="Email" named="True">
                     <layout manager="pack">
                       <property name="side">right</property>
                     </layout>
@@ -328,7 +328,7 @@
                   <property name="side">top</property>
                 </layout>
                 <child>
-                  <object class="ttk.Entry" id="entry20">
+                  <object class="ttk.Entry" id="Bday" named="True">
                     <layout manager="pack">
                       <property name="side">right</property>
                     </layout>
@@ -365,7 +365,7 @@
               <property name="expand">true</property>
               <property name="fill">x</property>
               <property name="ipadx">25</property>
-              <property name="ipady">20</property>
+              <property name="ipady">15</property>
               <property name="side">bottom</property>
             </layout>
             <child>
